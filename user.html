@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+<title>form</title>
+<link rel="stylesheet" type="text/css" href="user.css" />
+</head>
+<body background="image16.jpg">
+    <div class="container">
+    <h1>Log in</h1><br>
+    <form>
+    <table>
+    <tr><td><B>Firstname:</B></td>
+        <td><input type="text" name="first name"><br><br></td></tr>
+    <tr><td><B>Lastname:</B></td> 
+        <td><input type="text" name="lastname"><br><br></td></tr>
+    <tr><td><B>Gender:</B></td>
+        <td><input type="radio"  name="gender" value="male" />male
+            <input type="radio" name="gender" value="female"/>female<br><br></td></tr>
+    <tr><td><B>Emailid:</B></td> 
+        <td><input type="text" required><br><br></td></tr>
+    <tr><td><B>country:</B></td>
+        <td><select>
+        <option>India</option>
+        <option>U.S</option>
+        <option>U.K</option>
+        <option>Canada</option>
+        </select><br><br></td></tr>
+    <tr><td><B>city:</B></td>
+        <td><select>
+        <option>Junagadh</option>
+        <option>Rajkot</option>
+        <option>Somnath</option>
+        <option>Baroda</option>
+        <option>porbandar</option>
+        <option>Amreli</option>
+        <option>Ahemdabad</option>
+        <option>Surat</option>
+        </select><br><br></td></tr>
+    <tr><td><B>Phone:</B></td>  
+        <td><input type="text" name="country code"  value="+91" size="2">   
+        <input type="text" name="phone" size="10"> <br> <br></td></tr>  
+    <tr><td><B>Address:</B> <br></td>
+            <td><textarea cols="40" rows="5" value="address"></textarea>  <br> <br></td></tr>  
+    <tr><td><B>Password:</B></td>  
+            <td><input type="Password" id="pass" name="pass"> <br><br></td></tr> 
+    <tr><td><B>conformpassword:</B></td>  
+            <td><input type="Password" id="repass" name="repass"> <br> <br> </td> </tr>
+            <tr><td><input type="button" value="Submit"/></td>
+            <td><input type="button" value="cancel"/></td></tr>  
+    </div>
+    </table>
+    </form>
+</body>
+</html>
