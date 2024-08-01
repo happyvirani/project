@@ -1,0 +1,48 @@
+body
+{
+  background-color: rgb(126, 190, 209);
+}
+.container
+{
+  height: 300px;
+  width: 500px;
+  background-color: rgb(58, 135, 161);
+  text-align: center;
+  box-sizing: content-box;
+  margin: 100px 500px;
+  border-radius: 20px;
+  box-shadow: 40px 40px 20px 20px rgb(45, 44, 44);
+}
+input[type=text], input[type=password]
+{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button
+{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 50px;
+  cursor: pointer;
+  width: 80%;
+}
+button:hover 
+{
+  color: red;
+}
+.link
+{
+  float: right;
+  padding-top: 20px;
+}
+img.avatar
+{
+  margin: 50px 500px;
+  width: 10%;
+}
+
